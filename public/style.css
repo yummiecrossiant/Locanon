@@ -1,0 +1,116 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+html {
+  height:100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  text-decoration: none;
+  margin: 25px;
+  height: 100%;
+      background-color: thistle; 
+}
+
+body,h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+.bgimg {
+
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+login{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  text-decoration: none;
+  font-size:16px;
+  font-weight: bold;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h1 a { text-decoration: none;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: thistle;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: thistle;
+  border: 1px solid thistle;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: grey;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
